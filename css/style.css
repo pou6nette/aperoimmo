@@ -1,9 +1,16 @@
 @charset "utf-8";
 
+html {
+    overflow-y: scroll;
+}
+
 body
 {
     font-family: "Roboto", "Verdana", sans-serif;
-    
+}
+
+.row {
+    height: auto;
 }
 
 h3
