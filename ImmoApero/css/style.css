@@ -305,7 +305,7 @@ h1, h2, h3, h4, h5, h6,
 
 #main_logo{
   width: 26%;
-  color: #2808ff;
+  color: #5271FF;
 }
 
 h1, .h1 {
@@ -8091,7 +8091,7 @@ h1, h2, h3, h4, h5,
           display: none; } }
   .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
     color: #000000;
-    background: #ffdfdf; }
+    background: #5271FF; }
     @media (max-width: 767.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item.cta > a {
         padding-left: 15px;
@@ -8760,7 +8760,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     width: 80px;
     height: 80px;
-    background: #ffdfdf;
+    background: #5271FF;
     margin: 0 auto;
     margin-bottom: 30px; }
     .services-2 .icon span {

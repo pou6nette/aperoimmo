@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76268883-762e-4cec-bc39-6746230d9149" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ImmoApero/images/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Template-page-niveau1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/Template-page-niveau2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/S01E01.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contact-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/post-sample-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/social/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/social/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/social/youtube.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/clean-blog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/clean-blog.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meetup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/podcast.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/podcasts/podcast_0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/podcasts/podcast_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ressources.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitemap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImmoApero/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ImmoApero/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImmoApero/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ImmoApero/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,11 +16,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ImmoApero/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="88">
+              <caret line="117" column="51" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#10853#10860#0" expanded="true" />
+                <element signature="e#11463#11470#0" expanded="true" />
+                <element signature="e#12073#12080#0" expanded="true" />
+                <element signature="e#12683#12690#0" expanded="true" />
+                <element signature="e#13293#13300#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImmoApero/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1131">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImmoApero/fonts/flaticon/font/flaticon.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ImmoApero/css/flaticon.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-128">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -60,17 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="55" column="43" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="43" />
+            <state relative-caret-position="383">
+              <caret line="94" column="54" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="94" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImmoApero/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="306" column="2" selection-start-line="306" selection-start-column="2" selection-end-line="306" selection-end-column="2" />
+            <state relative-caret-position="230">
+              <caret line="8093" column="16" lean-forward="true" selection-start-line="8093" selection-start-column="16" selection-end-line="8093" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -84,6 +89,13 @@
       <find>clean-blog</find>
       <find>fa</find>
       <find>icon</find>
+      <find>about</find>
+      <find>#ffdfdf</find>
+      <find>.services-2 .icon</find>
+      <find>.ftco-navbar-light .navbar-nav &gt; .nav-item.cta &gt; a</find>
+      <find>flaticon-pin</find>
+      <find>about.j</find>
+      <find>your na</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,8 +111,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/old/index.html" />
         <option value="$PROJECT_DIR$/ImmoApero/scss/style.scss" />
-        <option value="$PROJECT_DIR$/ImmoApero/index.html" />
         <option value="$PROJECT_DIR$/ImmoApero/css/style.css" />
+        <option value="$PROJECT_DIR$/ImmoApero/index.html" />
       </list>
     </option>
   </component>
@@ -126,18 +138,6 @@
               <item name="aperoimmo" type="b2602c69:ProjectViewProjectNode" />
               <item name="aperoimmo" type="462c0819:PsiDirectoryNode" />
               <item name="ImmoApero" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aperoimmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aperoimmo" type="462c0819:PsiDirectoryNode" />
-              <item name="ImmoApero" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="aperoimmo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aperoimmo" type="462c0819:PsiDirectoryNode" />
-              <item name="ImmoApero" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,12 +182,12 @@
       <option name="presentableId" value="Default" />
       <updated>1587563829957</updated>
       <workItem from="1587563831238" duration="6797000" />
-      <workItem from="1587659061951" duration="969000" />
+      <workItem from="1587659061951" duration="3362000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7766000" />
+    <option name="totallyTimeSpent" value="10159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
@@ -293,13 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ImmoApero/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ImmoApero/scss/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -309,15 +302,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/old/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="55" column="43" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="43" />
+        <state relative-caret-position="383">
+          <caret line="94" column="54" lean-forward="true" selection-start-line="85" selection-start-column="16" selection-end-line="94" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ImmoApero/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="306" column="2" selection-start-line="306" selection-start-column="2" selection-end-line="306" selection-end-column="2" />
+        <state relative-caret-position="230">
+          <caret line="8093" column="16" lean-forward="true" selection-start-line="8093" selection-start-column="16" selection-end-line="8093" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImmoApero/fonts/flaticon/font/flaticon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImmoApero/fonts/flaticon/font/Flaticon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImmoApero/css/flaticon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImmoApero/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImmoApero/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="117" column="51" selection-start-line="117" selection-start-column="51" selection-end-line="117" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#10853#10860#0" expanded="true" />
+            <element signature="e#11463#11470#0" expanded="true" />
+            <element signature="e#12073#12080#0" expanded="true" />
+            <element signature="e#12683#12690#0" expanded="true" />
+            <element signature="e#13293#13300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
