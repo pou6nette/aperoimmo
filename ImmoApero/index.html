@@ -29,7 +29,7 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+<nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
     <div class="container">
         <a id="main_logo" class="navbar-brand" href="index.html"><img id="logo_menu" src="images/favicon.png">APERO IMMO</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
@@ -39,42 +39,41 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">🏠</a></li>
-                <li class="nav-item"><a href="podcast.html" class="nav-link">Le podcast 🎙</a></li>
-                <li class="nav-item"><a href="meetup.html" class="nav-link">Le meetup 🍻</a></li>
-                <li class="nav-item"><a href="blog.html" class="nav-link">Le blog 💬 </a></li>
-                <li class="nav-item"><a href="ressources.html" class="nav-link">Les ressources 📚</a></li>
-                <li class="nav-item"><a href="about.html" class="nav-link">About us 👥</a></li>
+                <li class="nav-item"><a href="index.html" class="nav-link"  id="nav-link-selected">🏠</a></li>
+                <li class="nav-item"><a href="podcast.html" class="nav-link" id="nav-link-unselected">Le podcast 🎙</a></li>
+                <li class="nav-item"><a href="meetup.html" class="nav-link" id="nav-link-unselected">Le meetup 🍻</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link" id="nav-link-unselected">Le blog 💬 </a></li>
+                <li class="nav-item"><a href="ressources.html" class="nav-link" id="nav-link-unselected">Les ressources 📚</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link" id="nav-link-unselected">About 💡</a></li>
                 <li class="nav-item cta"><a href='mailto:hello@aperoimmo.co' class="nav-link"><span>💌</span></a></li>
             </ul>
         </div>
     </div>
 </nav>
 <!-- END nav -->
-
 <section class="home-slider owl-carousel">
     <div class="container">
         <div class="row no-gutters">
-            <div class="col-md-5 p-md-5 img img-2" style="background-image: url(images/about_alice.PNG);">
+            <div class="col-md-5 p-md-5 img img-2" style="background-image: url(images/homepage.PNG);">
             </div>
             <div class="col-md-7 wrap-about pb-md-5 ftco-animate">
                 <div class="heading-section mb-4 ml-md-4 pl-md-5">
-                    <h2 class="mb-4">Bienvenue à l'<strong>apéro immo</strong> 🍻 <br></h2>
+                    <br><h2 class="mb-4">Bienvenue à l'<strong>apéro immo</strong>!<br></h2>
                 </div>
                 <div class="pl-md-5 ml-md-4 mb-5">
                     <p>
                         Nous sommes ici pour parler
                         immobilier
                         sans
-                        pression (notez le jeu de mots).
-                        Tu es au bon endroit, ne bouge pas ! 😊</p>
+                        pression (notez le jeu de mots) 🍻
+                        </p>
                     <div class="row my-5 pt-2">
                         <div class="col-lg-6">
                             <div class="services-2 px-4 text-center">
                                 <div class="icon d-flex justify-content-center align-items-center"><span
                                         class="flaticon-pin"></span></div>
                                 <div class="text">
-                                    <h3>Tu as envie de vous lancer, mais vous ne savez pas par où commencer ?</h3>
+                                    <h3>Tu as envie de te lancer, mais tu ne sais pas par où commencer ?</h3>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +107,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div>Tu es au bon endroit, ne bouge pas ! 😊</div>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,9 @@
                         <input type="text" class="form-control" placeholder="Ton Email">
                     </div>
                     <div class="form-group">
-                        <input type="submit" value="Let's go!" class="btn btn-primary py-3 px-5">
+                        <input type="submit" value="Let's go !" class="btn btn-primary py-3 px-5">
+                        <br>
+                        <br>
                     </div>
                 </form>
             </div>
@@ -176,7 +178,7 @@
                         <div class="form-group">
                             <input type="text" class="form-control mb-2 text-center" placeholder="Ton prénom">
                             <input type="text" class="form-control mb-2 text-center" placeholder="Ton email">
-                            <input type="submit" value="Subscribe" class="form-control submit px-3">
+                            <input type="submit" value="C'est parti !" class="form-control submit px-3">
                         </div>
                     </form>
                 </div>

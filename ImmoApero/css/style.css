@@ -366,6 +366,10 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
+#nav-link-unselected{
+    color:darkslategray;
+}
+
 #nav-link-selected{
   color: #5271FF;
 }
@@ -8120,7 +8124,7 @@ h1, h2, h3, h4, h5,
         color: #fff; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
-    color: rgba(255, 255, 255, 0.5) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
     cursor: pointer;
     padding-right: 0;
     text-transform: uppercase;
