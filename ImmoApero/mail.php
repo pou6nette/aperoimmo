@@ -1,0 +1,234 @@
+<?php
+    $fp = fopen('data.csv', 'a');
+    fwrite($fp, $_GET["name"] . ';' . $_GET["mail"] . "\r\n");
+    fclose($fp);
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Apero Immo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="icon" href="images/favicon.png"/>
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+        <a id="main_logo" class="navbar-brand" href="index.html"><img id="logo_menu" src="images/favicon.png">APERO IMMO</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+                aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link"  id="nav-link-selected">🏠</a></li>
+                <li class="nav-item"><a href="podcast.html" class="nav-link" id="nav-link-unselected">Le podcast 🎙</a></li>
+                <li class="nav-item"><a href="meetup.html" class="nav-link" id="nav-link-unselected">Le meetup 🍻</a></li>
+                <li class="nav-item"><a href="blog.html" class="nav-link" id="nav-link-unselected">Le blog 💬 </a></li>
+                <li class="nav-item"><a href="ressources.html" class="nav-link" id="nav-link-unselected">Les ressources 📚</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link" id="nav-link-unselected">About 💡</a></li>
+                <li class="nav-item cta"><a href='mailto:hello@aperoimmo.co' class="nav-link"><span>💌</span></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- END nav -->
+<section class="home-slider owl-carousel">
+    <div class="container">
+        <div class="row no-gutters">
+            <div class="col-md-5 p-md-5 img img-2" style="background-image: url(images/homepage.PNG);">
+            </div>
+            <div class="col-md-7 wrap-about pb-md-5 ftco-animate">
+                <div class="heading-section mb-4 ml-md-4 pl-md-5">
+                    <br><h2 class="mb-4">Bienvenue à l'<strong>apéro immo</strong>!<br></h2>
+                </div>
+                <div class="pl-md-5 ml-md-4 mb-5">
+                    <p>
+                        Nous sommes ici pour parler
+                        immobilier
+                        sans
+                        pression (notez le jeu de mots) 🍻
+                        </p>
+                    <div class="row my-5 pt-2">
+                        <div class="col-lg-6">
+                            <div class="services-2 px-4 text-center">
+                                <div class="icon d-flex justify-content-center align-items-center"><span
+                                        class="flaticon-pin"></span></div>
+                                <div class="text">
+                                    <h3>Tu as envie de te lancer, mais tu ne sais pas par où commencer ?</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="services-2 px-4 text-center">
+                                <div class="icon d-flex justify-content-center align-items-center"><span
+                                        class="flaticon-detective"></span></div>
+                                <div class="text">
+                                    <h3>Tu as plein de projets en tête mais personne avec qui en discuter ?</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="services-2 px-4 text-center">
+                                <div class="icon d-flex justify-content-center align-items-center"><span
+                                        class="flaticon-house"></span></div>
+                                <div class="text">
+                                    <h3>Tu es juste curieux au sujet de l'immobilier ?</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="services-2 px-4 text-center">
+                                <div class="icon d-flex justify-content-center align-items-center"><span
+                                        class="flaticon-purse"></span></div>
+                                <div class="text">
+                                    <h3>Certains sujets (rentabilité, imposition, SCI, ou autres) restent flous et tu
+                                        veux en apprendre
+                                        plus
+                                        ?</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>Tu es au bon endroit, ne bouge pas ! 😊</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section  ftco-no-pb ">
+    <div class="container">
+        <div class="row d-flex align-items-stretch no-gutters">
+            <div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
+                <form action="mail.php">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Ton prénom">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Ton Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Let's go !" class="btn btn-primary py-3 px-5">
+                        <br>
+                        C'est tout bon ✅
+                        <br>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 ">
+                <h2>Abonne-toi pour être mis au courant des prochains articles et évènements.<br></h2>
+                <p>
+                    Pas de spam, juste des infos utiles en temps voulu, promis !</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="ftco-footer ftco-footer-2 ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Apéro Immo</h2>
+                    <p>Retrouvez nous sur les réseaux sociaux, on adore ça.</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                        <li class="ftco-animate"><a href="https://www.instagram.com/aperoimmo/"><span class="icon-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="https://aperoimmo.co/www.facebook.com"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="https://www.youtube.com/channel/UC6d0Lukn9Kjjw-6cVThcCBQ?view_as=subscriber"><span class="icon-youtube-play"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-4">
+                    <h2 class="ftco-heading-2">Notre site</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html"><span class="icon-long-arrow-right mr-2"></span>Home 🏠</a></li>
+                        <li><a href="podcast.html"><span class="icon-long-arrow-right mr-2"></span>Podcast 🎙</a></li>
+                        <li><a href="meetup.html"><span class="icon-long-arrow-right mr-2"></span>Meetup 🍻</a></li>
+                        <li><a href="blog.html"><span class="icon-long-arrow-right mr-2"></span>Blog 💬</a></li>
+                        <li><a href="ressources.html"><span class="icon-long-arrow-right mr-2"></span>Ressources 📚</a></li>
+                        <li><a href="about.htlm"><span class="icon-long-arrow-right mr-2"></span>About us 👥</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Newsletter</h2>
+                    <p>Allez un petit mail et c'est tout !</p>
+                    <form action="mail.php" class="subscribe-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control mb-2 text-center" placeholder="Ton prénom">
+                            <input type="text" class="form-control mb-2 text-center" placeholder="Ton email">
+                            <input type="submit" value="C'est parti !" class="form-control submit px-3">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p>
+                    Copyright &copy; 2020
+                    | Fait avec <i class="icon-heart" aria-hidden="true"></i> par <a
+                        href="https://github.com/pou6nette/" target="_blank">Alice</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+                stroke="#F96D00"/>
+    </svg>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
