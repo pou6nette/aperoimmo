@@ -366,6 +366,10 @@ mark,
   padding: 0.2em;
   background-color: #fcf8e3; }
 
+#nav-link-selected{
+  color: #5271FF;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none; }
