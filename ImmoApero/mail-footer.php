@@ -58,8 +58,8 @@
     </div>
 </nav>
 <!-- END nav -->
-<div>Ton mail a bien été enregistré !</div>
-<a href="javascript:history.back()">Retour</a>
+<div>Ton mail a bien été enregistré, merci !</div>
+<a href="javascript:history.back()">Retour au site</a>
 
 
 <!-- loader -->

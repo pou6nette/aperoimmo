@@ -16,7 +16,7 @@
     
     <url>
 
-      <loc>https://www.aperoimmo.co/podcast</loc>
+      <loc>https://www.aperoimmo.co/podcast.html</loc>
 
       <lastmod>2020-04-01</lastmod>
 
@@ -27,7 +27,7 @@
    </url>
    <url>
 
-      <loc>https://www.aperoimmo.co/blog</loc>
+      <loc>https://www.aperoimmo.co/blog.html</loc>
 
       <lastmod>2020-04-01</lastmod>
 
@@ -38,7 +38,41 @@
    </url>
    <url>
 
-      <loc>https://www.aperoimmo.co/meetup</loc>
+      <loc>https://www.aperoimmo.co/meetup.html</loc>
+
+      <lastmod>2020-04-01</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+
+       <url>
+
+      <loc>https://www.aperoimmo.co/ressources.html</loc>
+
+      <lastmod>2020-04-01</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+       <url>
+
+      <loc>https://www.aperoimmo.co/blog/saison1.html</loc>
+
+      <lastmod>2020-04-01</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+       <url>
+
+      <loc>https://www.aperoimmo.co/blog/s01e01.html</loc>
 
       <lastmod>2020-04-01</lastmod>
 
